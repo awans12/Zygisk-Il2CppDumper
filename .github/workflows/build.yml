@@ -2,8 +2,8 @@ name: Build
 on:
   workflow_dispatch:
       inputs:
-        package_name: com.dois.greedgame
-          description: "Package name of the game:"
+        package_name: 
+          description: "com.dois.greedgame"
           required: true
 
 jobs:
